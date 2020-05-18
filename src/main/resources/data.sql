@@ -1,0 +1,4 @@
+INSERT  INTO AUTHOR (ID ,NAME) VALUES (1, 'Фёдор Достоевский');
+INSERT INTO GENRE (ID ,NAME) VALUES (1,'Художественная проза');
+INSERT INTO BOOK (ID ,NAME,AUTHOR_ID ,GENRE_ID ) VALUES (1,'Идиот','1','1');
+INSERT INTO BOOK (ID ,NAME,AUTHOR_ID ,GENRE_ID ) VALUES (2,'Бесы','1','1');
