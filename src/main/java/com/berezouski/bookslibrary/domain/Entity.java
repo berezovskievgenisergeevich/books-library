@@ -16,4 +16,12 @@ public class Entity extends EntityGeneral {
     public String getName() {
         return name;
     }
+
+    @Override
+    public String toString() {
+        return "Entity {" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }
